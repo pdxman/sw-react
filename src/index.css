@@ -20,7 +20,7 @@ h1{
 }
 .flex{
   display: flex;
-  flex-wrap: wrap-reverse;
+  flex-wrap: wrap;
 }
 .card{
   flex: 1 1 13em;
@@ -30,6 +30,7 @@ h1{
   box-shadow: 2px 2px 10px #000;
   background: #03506f;
   color: #fff;
+  border-radius: 5px;
 }
 .card-wrap{ margin-top: 2em; }
 .card-link { 
@@ -38,7 +39,8 @@ h1{
   border: 1px solid #4a4a4a;
   box-shadow: 2px 2px 10px #000;
   background: #03506f;
-  color: #fff; }
+  color: #fff; 
+ border-radius: 5px;}
 .card-link a { 
   color: #fff; 
   text-decoration: none; 
