@@ -20,7 +20,6 @@ export default function People(){
 
     return(
         <>
-            <h1>Star Wars Stuff</h1>
             <div className="flex">
                 {results.map(result =>(
                     <div className="card">
