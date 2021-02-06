@@ -11,3 +11,22 @@ code {
   font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
     monospace;
 } */
+body{
+  background: orangered;
+}
+h1{
+  margin-left: .5em;
+}
+.flex{
+  display: flex;
+  flex-wrap: wrap-reverse;
+}
+.card{
+  flex: 1 1 13em;
+  padding: 1em;
+  margin: 1em;
+  border: 1px solid #4a4a4a;
+  box-shadow: 2px 2px 10px #000;
+  background: #03506f;
+  color: #fff;
+}
