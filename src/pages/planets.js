@@ -11,7 +11,7 @@ export default function Planets(){
           gsap.from(pageRef.current, {
             autoAlpha: 0,
             x: 250,
-            ease: 'none',
+            ease: 'Power1.inOut',
             delay: 1
           })
         })

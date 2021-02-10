@@ -17,6 +17,7 @@ export default function HomePage(){
     return(
         <div className="menu" ref={menuRef}>
             <div className="card-wrap">
+                {/* <Link className="card-link" to="/">Home</Link> */}
                 <Link className="card-link" to="/people">Characters</Link>
                 <Link className="card-link" to="/planets">Planets</Link>
                 <Link className="card-link" to="/films">Films</Link>
