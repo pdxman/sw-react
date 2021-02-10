@@ -8,8 +8,9 @@ export default function HomePage(){
     useEffect(() => {
         gsap.from(menuRef.current, {
             autoAlpha: 0,
+            x: 250,
             ease: 'none',
-            delay: 1
+            delay: 2
         })
     })
 

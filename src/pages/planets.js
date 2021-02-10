@@ -10,6 +10,7 @@ export default function Planets(){
         useEffect(() => {
           gsap.from(pageRef.current, {
             autoAlpha: 0,
+            x: 250,
             ease: 'none',
             delay: 1
           })
@@ -36,7 +37,7 @@ export default function Planets(){
         ) : 
             (<div className="flex" ref={pageRef}>
                 {results.map( result =>(
-                    <div className="card">
+                    <div className="card" ref={pageRef}>
                         <h2>Name: {result.name}</h2>
                         <p><strong>Terrain:</strong> {result.terrain}</p>
                         <p><strong>Population:</strong> {result.population}</p>
