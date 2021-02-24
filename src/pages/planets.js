@@ -38,7 +38,7 @@ export default function Planets(){
             (<div className="flex" ref={pageRef}>
                 {results.map( result =>(
                     <div className="card" ref={pageRef}>
-                        <h2>Name: {result.name}</h2>
+                        <h2>{result.name}</h2>
                         <p><strong>Terrain:</strong> {result.terrain}</p>
                         <p><strong>Population:</strong> {result.population}</p>
                     </div>
